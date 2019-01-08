@@ -1,0 +1,37 @@
+li {
+    list-style: none;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-right: 13rem;
+    margin-left: 13rem;
+    font-size: 1.2rem
+}
+
+.todoCheck {
+    float: left;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+.todoCancel{
+    float: right;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+#todoitemslist{
+    max-height: 450px;
+    overflow-y: scroll;
+}
